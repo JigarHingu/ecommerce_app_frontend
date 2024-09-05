@@ -35,15 +35,78 @@ A user-friendly e-commerce app built with **React** that allows you to browse pr
 You will need to have **Node.js** and **npm** installed on your machine.
 
 ## Steps to run locally
+2. **Navigate to the Project Directory:**
 
-### 1. Clone the repository
+    ```bash
+    cd kings-collection
+    ```
 
-```bash
-git clone https://github.com/JigarHingu/ecommerce-app.git
-cd ecommerce-app
+3. **Install Dependencies:**
 
-### 2. Install dependencies
+    ```bash
+    npm install
+    ```
 
+4. **Start the Development Server:**
 
-```bash
-npm install
+    ```bash
+    npm start
+    ```
+
+5. **Open your Browser and Go to:**
+
+    ```
+    http://localhost:3000
+    ```
+
+## Technologies
+
+- **React:** Front-end library for building user interfaces.
+- **React Router:** For handling navigation and routing.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Vite:** Modern build tool for fast development and build processes.
+
+## Components
+
+- **Hero:** Displays the main promotional content and latest arrivals.
+- **BestSeller:** Shows a list of best-selling products.
+- **LatestCollection:** Displays the latest products.
+- **OurPolicy:** Outlines the company’s policies on returns, exchanges, and support.
+- **NewsletterBox:** Allows users to subscribe to the newsletter.
+- **ProductItem:** Represents an individual product for display in lists.
+- **Navbar:** Navigation bar with links to different sections.
+- **Footer:** Contains company information and links.
+
+## Contexts
+
+- **ShopContext:** Provides global state management for products, currency, and delivery fee.
+
+## Development Setup
+
+To set up the development environment:
+
+1. **Ensure you have Node.js and npm installed.**
+
+2. **Install ESLint for code linting:**
+
+    ```bash
+    npm install eslint
+    ```
+
+3. **Run ESLint to check code quality:**
+
+    ```bash
+    npm run lint
+    ```
+
+4. **Run Tests (if applicable):**
+
+    ```bash
+    npm test
+    ```
+
+## Contributions
+
+Contributions are welcome! If you have suggestions, bug reports, or enhancements, please open an issue or submit a pull request. 
+
+Thank you for your interest in King's Collection!
