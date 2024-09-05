@@ -35,6 +35,14 @@ A user-friendly e-commerce app built with **React** that allows you to browse pr
 You will need to have **Node.js** and **npm** installed on your machine.
 
 ## Steps to run locally
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/ecommerce-app.git
+    cd ecommerce-app
+    ```
+
 2. **Navigate to the Project Directory:**
 
     ```bash
@@ -102,7 +110,7 @@ To set up the development environment:
 4. **Run Tests (if applicable):**
 
     ```bash
-    npm test
+    npm run dev
     ```
 
 ## Contributions
