@@ -11,6 +11,10 @@ A user-friendly e-commerce app built with **React** that allows you to browse pr
 - **Cart Management**: Add, remove, and update items in your cart.
 - **Google Authentication**: Login with your Google account (Coming soon).
 - **Responsive Design**: Works on all devices, from desktop to mobile.
+- **Cart Management**: Add, remove, and update items in your cart.
+Search Functionality: Search for products by name.
+- **Product Filtering**: Filter products by categories and subcategories.
+- **Sorting**: Sort products by relevance, price (low to high, high to low).
 
 ---
 
@@ -19,6 +23,7 @@ A user-friendly e-commerce app built with **React** that allows you to browse pr
 - **Frontend**: 
   - React.js
   - React Router for navigation
+  - Context API for state management
   - Axios for API requests
   - Tailwind CSS for styling
 
@@ -74,20 +79,66 @@ You will need to have **Node.js** and **npm** installed on your machine.
 - **Tailwind CSS:** Utility-first CSS framework for styling.
 - **Vite:** Modern build tool for fast development and build processes.
 
-## Components
+## 🧩 Components
 
+- **Home:** The main landing page displaying promotional content.
 - **Hero:** Displays the main promotional content and latest arrivals.
+- **Collection:** Browse through different product collections.
 - **BestSeller:** Shows a list of best-selling products.
+- **Product:** Detailed information about a single product.
+- **Cart:** Manage items added to your cart.
+- **PlaceOrder:** Handle order placement process (Coming soon).
+- **Orders:** View past orders (Coming soon).
 - **LatestCollection:** Displays the latest products.
 - **OurPolicy:** Outlines the company’s policies on returns, exchanges, and support.
 - **NewsletterBox:** Allows users to subscribe to the newsletter.
 - **ProductItem:** Represents an individual product for display in lists.
-- **Navbar:** Navigation bar with links to different sections.
+- **Navbar:** Displays the navigation bar and links to pages like Home, Collection, About, and Contact..
 - **Footer:** Contains company information and links.
+- **SearchBar:** Allows users to search for products.
+- **Title:** Custom component to display headings on the Collection page.
 
 ## Contexts
 
 - **ShopContext:** Provides global state management for products, currency, and delivery fee.
+- Handles showing/hiding of the search bar.
+
+## 🚀 Getting Started
+
+# Prerequisites
+You will need to have Node.js and npm installed on your machine.
+
+# Steps to run locally
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/JigarHingu/ecommerce-app.git
+    ```
+
+2. Navigate to the Project Directory:
+
+    ```bash
+   cd ecommerce-app
+    ```
+
+3. Install Dependencies:
+
+    ```bash
+   npm install
+    ```
+
+4. Start the Development Server:
+
+    ```bash
+   npm start
+    ```
+
+5. Open your Browser and Go to:
+
+    ```bash
+   http://localhost:3000
+    ```
 
 ## Development Setup
 
