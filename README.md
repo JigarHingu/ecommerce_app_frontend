@@ -103,43 +103,6 @@ You will need to have **Node.js** and **npm** installed on your machine.
 - **ShopContext:** Provides global state management for products, currency, and delivery fee.
 - Handles showing/hiding of the search bar.
 
-## 🚀 Getting Started
-
-# Prerequisites
-You will need to have Node.js and npm installed on your machine.
-
-# Steps to run locally
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/JigarHingu/ecommerce-app.git
-    ```
-
-2. Navigate to the Project Directory:
-
-    ```bash
-   cd ecommerce-app
-    ```
-
-3. Install Dependencies:
-
-    ```bash
-   npm install
-    ```
-
-4. Start the Development Server:
-
-    ```bash
-   npm start
-    ```
-
-5. Open your Browser and Go to:
-
-    ```bash
-   http://localhost:3000
-    ```
-
 ## Development Setup
 
 To set up the development environment:
