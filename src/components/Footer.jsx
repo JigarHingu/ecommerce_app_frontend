@@ -8,8 +8,8 @@ const Footer = () => {
         <div>
           <img src={assets.logo} className="mb-5 w-32" alt="" />
           <p className="w-full md:w-2/3 text-gray-600">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the.
+          Welcome to King's Collection!
+          Discover premium fashion with a blend of elegance and comfort. From casual to special occasions, find unique styles that elevate your wardrobe. Explore King's Collection and dress with a royal touch!
           </p>
         </div>
         <div>
@@ -24,7 +24,7 @@ const Footer = () => {
         <div>
             <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
             <ul className="flex flex-col gap-1 text-gray-600">
-            <li>+1-212-333-4440</li>
+            <li>0250-2340564</li>
             <li>contact@king's.com</li>
             </ul>
         </div>

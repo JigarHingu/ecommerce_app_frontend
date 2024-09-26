@@ -11,8 +11,7 @@ const NewsletterBox = () => {
         Subscribe now & get 20% off
       </p>
       <p className="text-gray-400 mt-3">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the.
+      Unlock 20% off your first order when you join the King’s Collection family. Be the first to know about exclusive drops and special offers—because royalty deserves the best.
       </p>
       <form onSubmit={onSubmitHandler} className="w-full sm:w=1/2 flex items-center gap-3 mx-auto my-6 border pl-3">
         <input className="w-full sm:flex-1 outline-none" type="email" placeholder="Enter your email" required/>

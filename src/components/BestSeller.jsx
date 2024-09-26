@@ -17,8 +17,7 @@ const BestSeller = () => {
       <div className="text-center text-3xl py-8">
         <Title text1={"BEST"} text2={"SELLERS"} />
         <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the.
+        Crown your wardrobe with our top picks! These styles are flying off the shelves for a reason—don’t miss your chance to own the best.
         </p>
       </div>
 
