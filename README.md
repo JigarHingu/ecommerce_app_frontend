@@ -17,6 +17,9 @@ A user-friendly e-commerce app built with **React** that allows you to browse pr
 - **Sorting:** Sort products by relevance, price (low to high, high to low).
 - **Order Management:** Place orders and view past orders (Order history feature).
 - **Toast Notifications:** Visual feedback for actions like adding products to the cart using react-toastify.
+- **Razorpay Integration:** Process payments securely (In progress).
+- **Stripe Integration:** Process payments securely (In progress).
+
 
 ---
 
@@ -104,6 +107,7 @@ You will need to have **Node.js** and **npm** installed on your machine.
 - **RelatedProducts**: Displays a list of products related to the currently viewed product.
 - **ProductItem**: Represents an individual product in product listings.
 - **ToastContainer**: Handles toast notifications for actions like adding products to the cart.
+-**Admin Dashboard:** Manage products, view orders, and handle user management (Planned).
 
 ## 📦 Contexts
 
@@ -148,6 +152,8 @@ Deployment steps will be added once backend integration is complete and the proj
 - Backend Integration: Node.js with MongoDB to handle data storage, order tracking, and user management.
 - Wishlist: Allow users to save products for future purchases.
 - Review System: Allow users to leave reviews and ratings for products.
+- Admin Dashboard: An interface for administrators to manage products, orders, and users.
+
 
 ## 🤝 Contributions
 
