@@ -51,7 +51,7 @@ You will need to have **Node.js** and **npm** installed on your machine.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/JigarHingu/ecommerce-app.git
+    git clone https://github.com/JigarHingu/ecommerce_app_frontend.git
     cd ecommerce-app
     ```
 
